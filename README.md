@@ -26,15 +26,16 @@ matière ou niveau est géré dans `lib/prompts.js`.
 
 1. Créer un repo Git avec ce dossier, le pousser sur GitHub.
 2. Sur vercel.com : "New Project" → importer le repo.
-3. Ajouter la variable d'environnement `ANTHROPIC_API_KEY` (Project Settings →
-   Environment Variables) avec une clé API Anthropic valide.
+3. Ajouter la variable d'environnement `GEMINI_API_KEY` (Project Settings →
+   Environment Variables) avec une clé API Gemini valide (gratuite — voir
+   https://aistudio.google.com/apikey).
 4. Déployer.
 
 ## En local
 
 ```bash
 npm install
-export ANTHROPIC_API_KEY=sk-ant-...
+export GEMINI_API_KEY=AIza...
 npm run dev
 ```
 
